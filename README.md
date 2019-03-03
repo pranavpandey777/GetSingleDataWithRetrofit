@@ -21,6 +21,8 @@ For Success:
 For Failure:
 "status": 2,
 "status_message": "Invalid User"
+
+
 2. Registration API:
 End Point:
 adduser
@@ -38,6 +40,8 @@ For Success:
 For Failure:
 “status”:0
 " status_message ": “Employee Addition Failed”
+
+
 3.All Data API:
 End Point:
 getusers
@@ -54,13 +58,15 @@ Response:
 }
 ]
 }
+
+
 4.Get Single User API:
 End Point:
 getone
 Method Type:
 GET
 Data Structure:
-QUERY https://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getone https://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getone https://form420.000webhostapp.com/getone https://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getone https://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getone https://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getone https://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getone https://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getone https://form420.000webhostapp.com/getonehttps://form420.000webhostapp.com/getone/{email} /{email}/{email}/{email}/{email}/{email}/{email}
+QUERY https://form420.000webhostapp.com/getone/{email}
 Response:
 {
 "name": "Ankit Raina",
@@ -68,13 +74,15 @@ Response:
 "mobile": "9875562545",
 "password": "123456"
 }
+
+
 5.Delete User API:
 End Point:
 deleteuser
 Method Type:
 GET
 Data Structure:
-QUERY https://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteus https://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteus https://form420.000webhostapp.com/deleteus https://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteus https://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteus https://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteus https://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteus https://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteus https://form420.000webhostapp.com/deleteushttps://form420.000webhostapp.com/deleteuser/{email} /{email}/{email}/{email}/{email} /{email}
+QUERY https://form420.000webhostapp.com/deleteus/{email}
 Response:
 For Success:
 “status”:1
@@ -82,13 +90,15 @@ For Success:
 For Failure:
 “status”:0
 " status_message ": “Employee Deletion Failed”
+
+
 6.Update API:
 End Point:
 update
 Method Type:
 POST
 Content Type:
-Query https://form420.000webhostapp.com/https://form420.000webhostapp.com/ https://form420.000webhostapp.com/https://form420.000webhostapp.com/ https://form420.000webhostapp.com/ https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/ https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/ https://form420.000webhostapp.com/https://form420.000webhostapp.com/https://form420.000webhostapp.com/ https://form420.000webhostapp.com/https://form420.000webhostapp.com/updateupdateupdateupdateupdate /{email} /{email}/{email}/{email}/{email}/{email}/{email}
+Query https://form420.000webhostapp.com/{email}
 Application/json
 Data Structure:
 {"name": "Ankit Raina","email": "ankit@gmail.com",
